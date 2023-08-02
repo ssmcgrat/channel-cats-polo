@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { NewsBulletinComponent } from './news-bulletin/news-bulletin.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
     ContactComponent,
     HomeComponent,
     ScheduleComponent,
+    NewsBulletinComponent,
   ],
   imports: [
     BrowserModule,
