@@ -1,0 +1,28 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.section-header {
+    font-size: large;
+}
+
+.section-body {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 2%;
+}
+
+.key-val-pair {
+    display: flex;
+    margin-top: 1%;
+    
+    .key {
+        font-weight: bold;
+    }
+
+    .value {
+        margin-left: 2%
+    }
+}

@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactComponent,
     HomeComponent,
+    ScheduleComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,6 +21,7 @@ import { HomeComponent } from './home/home.component';
     RouterModule.forRoot([
       {path: 'contact', component: ContactComponent},
       {path: '', component: HomeComponent},
+      {path: 'schedule', component: ScheduleComponent},
     ]),
   ],
   providers: [],
